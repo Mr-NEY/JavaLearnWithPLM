@@ -7,9 +7,9 @@ public class BreakdoWhile {
 		int i;
 		for (i=1;i<=100;i++)
 		{
-			if ((i%7)!=0)
+			if ((i%2)!=0)
 				continue;
-			System.out.println(i);
+			System.out.println(i);// if ((i%2)==0)
 		}
 		
 	}
